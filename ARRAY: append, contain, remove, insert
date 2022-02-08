@@ -1,0 +1,30 @@
+ARRAY APPEND-
+
+var names = ["Riya"]
+names.append("Rajat")
+names += ["Sonali"]
+
+print(names)
+
+ARRAY REMOVE-
+
+var names = ["riya","rajat","lokesh","sunil"]
+let rajat = names.remove(at:2)
+let lokesh = names.removeLast()
+print(names)
+
+names.removeAll()
+print(names)
+
+ARRAY INSERT-
+
+var names = ["Tina","anthony","Yogendra"]
+names.insert("kartik", at: 2)
+print(names)
+
+ARRAY CONTAINS-
+
+let numbers = [25,30,218,60,75]
+if numbers.contains(30) {
+    print("There is a 30")
+}
